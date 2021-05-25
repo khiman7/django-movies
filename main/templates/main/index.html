@@ -1,0 +1,36 @@
+{% extends 'main/base.html' %}
+{% load i18n %}
+{% block content %}
+
+<div class="container">
+    <div class="card mt-4 backdrop">
+        <div class="card-body">
+            <div class="row">
+                {% for movie in movies %}
+                <div class="col-md-4">
+                    <div class="card mt-3">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="{{ movie.image }}" alt="" class="img-fluid" width="75%">
+                                <h3 class="text-center mt-3">{{ movie.name }}</h3>
+                                <div class="text-center">
+                                    <i>"{{ movie.tagline }}"</i>
+                                    <br>
+                                    <h6>{{ movie.release_date.year }}</h6>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3">
+                                <button class="btn btn-primary">
+                                    <a href="{% url 'main:detail' movie.id %}" class="text-white" style="text-decoration: none;">{% translate 'Watch Online' %}</a>    
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

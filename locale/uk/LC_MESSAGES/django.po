@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-24 22:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: .\accounts\templates\accounts\login.html:7
+msgid "Login to your account"
+msgstr "Увійдіть у свій аккаунт"
+
+#: .\accounts\templates\accounts\login.html:10
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: .\accounts\templates\accounts\login.html:12
+msgid "Password"
+msgstr "Пароль"
+
+#: .\accounts\templates\accounts\login.html:20
+#: .\main\templates\main\base.html:44
+msgid "Login"
+msgstr "Увійти"
+
+#: .\accounts\templates\accounts\register.html:10
+msgid "Register an Account"
+msgstr "Реєстрація аккаунту"
+
+#: .\accounts\templates\accounts\register.html:15
+#: .\main\templates\main\base.html:47
+msgid "Register"
+msgstr "Реєстрація"
+
+#: .\main\templates\main\base.html:28
+msgid "Add Movie"
+msgstr "Додати фільм"
+
+#: .\main\templates\main\base.html:37
+msgid "My Profile"
+msgstr "Мій профіль"
+
+#: .\main\templates\main\base.html:39
+msgid "Logout"
+msgstr "Вийти"
+
+#: .\main\templates\main\base.html:53
+msgid "Search"
+msgstr "Пошук"
+
+#: .\main\templates\main\details.html:19
+msgid "Genre"
+msgstr "Жанр"
+
+#: .\main\templates\main\details.html:25
+msgid "Director"
+msgstr "Режисер"
+
+#: .\main\templates\main\details.html:28
+msgid "Cast"
+msgstr "Акторський склад"
+
+#: .\main\templates\main\details.html:31 .\main\templates\main\details.html:63
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: .\main\templates\main\details.html:50 .\main\templates\main\index.html:24
+msgid "Watch Online"
+msgstr "Дивитися Онлайн"
+
+#: .\main\templates\main\details.html:58
+msgid "My Review"
+msgstr "Моя рецензія"
+
+#: .\main\templates\main\details.html:61
+msgid "Review"
+msgstr "Рецензія"
+
+#: .\main\templates\main\details.html:73
+msgid "Reviews"
+msgstr "Рецензії"
+
+#: .\main\templates\main\editreview.html:9
+#, fuzzy
+#| msgid "Review"
+msgid "Edit Review"
+msgstr "Редагувати рецензію"
