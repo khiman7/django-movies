@@ -5,5 +5,5 @@ gunicorn==19.9.0
 Pillow==3.3.0
 psycopg2-binary==2.8.6
 django_ckeditor
-django-crispy-form
+django-crispy-forms
 whitenoise==3.3.1
