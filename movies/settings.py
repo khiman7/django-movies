@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-uy$e#g1x9mgj01yla+8&#cguft7cp-s4sq%8ixk*67=4_+!79n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-movies7.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['django-movies7.herokuapp.com', 'localhost']
 
 
 # Application definition
